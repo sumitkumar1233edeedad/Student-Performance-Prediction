@@ -1,49 +1,105 @@
 # 🎓 Student Performance Prediction System
 
+<p align="center">
+  <b>Machine Learning Web Application to Predict Student Academic Performance</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
+  <img src="https://img.shields.io/badge/Framework-Streamlit-red.svg" />
+  <img src="https://img.shields.io/badge/ML-Scikit--Learn-orange.svg" />
+  <img src="https://img.shields.io/badge/Status-Deployed-success.svg" />
+</p>
+
+---
+
 ## 📌 Project Overview
 
-The **Student Performance Prediction System** is a Machine Learning project that predicts a student's academic performance based on various input features such as study hours, attendance, previous scores, and other relevant factors.
+The **Student Performance Prediction System** is an end-to-end Machine Learning project designed to predict students' academic performance based on demographic and academic factors.
 
-This project helps educational institutions analyze student data and identify students who may need additional support.
+This system helps educational institutions:
 
----
+- Identify students at risk
+- Analyze performance trends
+- Provide early academic support
+- Make data-driven decisions
 
-## 🚀 Features
-
-- 📊 Data Preprocessing (Handling missing values, encoding, scaling)
-- 🤖 Machine Learning Model Training
-- 📈 Model Evaluation (MSE, RMSE, R2 Score)
-- 💾 Model Saving & Loading
-- 🌐 Web App Integration (Optional - Flask / Streamlit)
+The project includes **data preprocessing, model training, evaluation, and deployment using Streamlit**.
 
 ---
 
-## 🗂 Dataset
+## 🚀 Live Demo
 
- 
+🔗 **Try the Live Application Here:**  
+👉 https://student-performance-prediction-vanshu.streamlit.app/
 
-### Dataset Features:
+---
 
-- Gender  
-- Race/Ethnicity  
-- Parental Level of Education  
-- Lunch Type  
-- Test Preparation Course  
-- Math Score  
-- Reading Score  
-- Writing Score  
+## 🎯 Problem Statement
+
+Educational institutions often struggle to identify students who may need additional academic support.  
+
+This project uses Machine Learning techniques to:
+
+- Analyze student-related factors
+- Predict exam scores
+- Provide insights based on input features
+
+---
+
+## 📊 Dataset Information
+
+The dataset includes the following features:
+
+| Feature | Description |
+|----------|-------------|
+| Gender | Student gender |
+| Race/Ethnicity | Student ethnic group |
+| Parental Level of Education | Education qualification of parents |
+| Lunch | Standard or Free/Reduced |
+| Test Preparation Course | Completed or None |
+| Math Score | Student math exam score |
+| Reading Score | Student reading exam score |
+| Writing Score | Student writing exam score |
 
 ---
 
 ## 🛠 Technologies Used
 
-- 🐍 Python  
-- 📊 NumPy  
-- 📈 Pandas  
-- 📉 Matplotlib / Seaborn  
-- 🤖 Scikit-learn  
-- 🌐 Flask / Streamlit (Optional)
+- 🐍 **Python**
+- 📊 **NumPy**
+- 📈 **Pandas**
+- 📉 **Matplotlib**
+- 🎨 **Seaborn**
+- 🤖 **Scikit-learn**
+- 🌐 **Streamlit**
+- 💾 **Pickle (Model Saving)**
 
 ---
 
-## 📁 Project Structure
+## 🔄 Machine Learning Workflow
+
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Engineering
+5. Model Training
+6. Model Evaluation
+7. Model Deployment using Streamlit
+
+---
+
+## 📈 Model Evaluation Metrics
+
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sumitkumar1233edeedad/Student-Performance-Prediction.git
